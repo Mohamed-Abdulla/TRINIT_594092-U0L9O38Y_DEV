@@ -98,3 +98,24 @@ export const sgs_content = [
     data: "Rythu Bima Scheme (Andhra Pradesh): This is a crop insurance scheme for farmers in the state, providing insurance coverage and financial support in the event of crop",
   },
 ];
+
+export const hybrid = [
+  {
+    Image: "HYLiveStock.jpg",
+    data: "Hybrid livestock management systems involve the use of traditional livestock management practices combined with modern technologies such as sensors, wearable devices, and data analysis. These systems help farmers monitor the health and well-being of their livestock, optimize feed programs, and reduce the risk of disease outbreaks.",
+  },
+  {
+    Image: "HY2.jpg",
+    data: "Hybrid crop planning tools involve the use of traditional farming knowledge and practices combined with modern technologies such as data analysis and weather forecasting. These tools help farmers plan their crops more effectively, taking into account factors such as soil type, climate, and market demand. For example, by using weather data and market prices, farmers can make informed decisions about what crops to grow and when to plant them.",
+  },
+  {
+    Image: "HY3.jpg",
+    data: "Hybrid automated equipment combines traditional farming equipment with modern technologies such as GPS, sensors, and automation. These systems help farmers reduce manual labour, increase efficiency, and improve the accuracy of their operations. For example, by using GPS and other technologies, automated tractors can plant and cultivate crops more precisely, reducing waste and improving yields.",
+  },
+  {
+    data: " Hybrid seed technology involves the crossing of two genetically different varieties of the same crop species to produce offspring with desirable traits such as higher yields, disease resistance, and better adaptation to specific growing conditions. Hybrid seeds can help farmers achieve higher crop yields, reduce the need for pesticides and other inputs, and improve the quality of their crops",
+  },
+  {
+    data: "Hybrid irrigation systems combine traditional irrigation methods with modern technologies such as sensors, weather data, and automation. These systems help farmers optimize irrigation schedules, reduce water waste, and improve crop yields. For example, by using sensors to monitor soil moisture levels and weather conditions, farmers can make informed decisions about when to irrigate their crops and how much water to use.",
+  },
+];
