@@ -60,7 +60,7 @@ export const Kharif = [
   },
   {
     img: "https://img.freepik.com/free-photo/two-sack-groundnuts-put-dark-background_1150-34399.jpg?w=826&t=st=1676129015~exp=1676129615~hmac=f835a8efa585323d71f558f44638d963c14c4ad72b37308d4ad3ea4f2525e247",
-    title: "Ground Nut",
+    title: "GroundNut",
     location:
       "assam, west bengal, coastal regions of odisha, andhra pradesh, telangana, tamil nadu, kerala, maharashtra (konkan coast), punjab, haryana, uttar pradesh and bihar",
   },

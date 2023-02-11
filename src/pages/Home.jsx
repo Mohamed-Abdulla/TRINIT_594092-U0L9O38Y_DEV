@@ -41,23 +41,21 @@ const Home = () => {
     fetchSoilData();
   }, [location]);
   return (
-    <>
-      <div className="container flex gap-5 flex-col">
-        <h1 className="text-white text-3xl">Allow Location access, to suggest Crops based on your Location</h1>
-        <p>Latitude: {location.lat}</p>
-        <p>Longitude: {location.lng}</p>
+    <div className="flex gap-5 flex-col h-screen items-center justify-center">
+      <h1 className=" text-3xl">Allow Location access, to suggest Crops based on your Location</h1>
+      <p>Latitude: {location.lat}</p>
+      <p>Longitude: {location.lng}</p>
 
-        <h2>Your weather conditions</h2>
-        <p>Temperature: {weather.temp}</p>
-        <p>Pressure: {weather.pressure}</p>
-        <p>Humidity: {weather.humidity}</p>
+      <h2>Your weather conditions</h2>
+      <p>Temperature: {weather.temp}</p>
+      <p>Pressure: {weather.pressure}</p>
+      <p>Humidity: {weather.humidity}</p>
 
-        <h2>Soil Information</h2>
-        <p>Soil Type: {soilData.soil_type}</p>
-        <p>Texture: {soilData.texture}</p>
-        <p>pH: {soilData.pH}</p>
-      </div>
-    </>
+      <strong className="text-red-600 text-xl">
+        Note: We planned to show suitable crops ,based on user's latitude and longitude, due to time constrains we
+        couldn't do that
+      </strong>
+    </div>
   );
 };
 

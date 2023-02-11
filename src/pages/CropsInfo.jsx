@@ -1,6 +1,7 @@
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography } from "@mui/material";
 import React from "react";
 import { Kharif, RABI } from "../utils/crops";
+import { Link } from "react-router-dom";
 
 const CropsInfo = () => {
   return (
@@ -24,9 +25,11 @@ const CropsInfo = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  How to Plant
-                </Button>
+                <Link to={`/${crop.title}`}>
+                  <Button size="small" color="primary">
+                    How to Plant
+                  </Button>
+                </Link>
               </CardActions>
             </Card>
           ))}
@@ -51,9 +54,11 @@ const CropsInfo = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  How to Plant
-                </Button>
+                <Link to={`/${crop.title}`}>
+                  <Button size="small" color="primary">
+                    How to Plant
+                  </Button>
+                </Link>
               </CardActions>
             </Card>
           ))}

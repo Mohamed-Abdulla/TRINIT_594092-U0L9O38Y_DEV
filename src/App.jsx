@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import FarmingTech from "./pages/FarmingTech";
 import Hybrid from "./pages/Hybrid";
 import CropsInfo from "./pages/CropsInfo";
+import HowToPlant from "./pages/HowToPlant";
+import { Kharif, RABI } from "./utils/crops";
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
         <Route path="/farmingtech" element={<FarmingTech />} />
         <Route path="/hybrid" element={<Hybrid />} />
         <Route path="/cropsknowledge" element={<CropsInfo />} />
+        {RABI.map((crop) => (
+          <Route path={`/${crop.title}`} element={<HowToPlant />} />
+        ))}
+        {Kharif.map((crop) => (
+          <Route path={`/${crop.title}`} element={<HowToPlant />} />
+        ))}
       </Routes>
     </div>
   );
