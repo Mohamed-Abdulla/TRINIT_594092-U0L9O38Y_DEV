@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import FarmingTech from "./pages/FarmingTech";
 import Hybrid from "./pages/Hybrid";
+import CropsInfo from "./pages/CropsInfo";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/schemes" element={<Gvt_schemes />} />
         <Route path="/farmingtech" element={<FarmingTech />} />
         <Route path="/hybrid" element={<Hybrid />} />
+        <Route path="/cropsknowledge" element={<CropsInfo />} />
       </Routes>
     </div>
   );

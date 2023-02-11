@@ -4,23 +4,26 @@ import logo from "../assets/3491.jpg";
 
 const Navbar = () => {
   return (
-    <header className="px-16 p-6 fixed top-0 right-0 left-0 bg-white rounded-md mb-16">
+    <header className="px-16 p-6 fixed top-0 right-0 left-0 bg-white rounded-md mb-16 z-10">
       <nav className="flex">
         <Link to="/" className="mr-auto">
           <img src={logo} alt="logo" className="h-10 object-cover" />
         </Link>
-        <ul className="flex space-x-5 text-base ">
+        <ul className="flex space-x-5 text-base font-medium ">
           <Link to="/">
             <li className="">Home</li>
           </Link>
           <Link to="/schemes">
-            <li className="">Govt Schemes</li>
+            <li className="">GovtSchemes</li>
           </Link>
           <Link to="/farmingtech">
-            <li className="">Farming Technology</li>
+            <li className="">FarmingTech</li>
           </Link>
           <Link to="/hybrid">
-            <li className="">Hybrid Technology</li>
+            <li className="">Hybrid</li>
+          </Link>
+          <Link to="/cropsknowledge">
+            <li className="">Crops Info</li>
           </Link>
         </ul>
       </nav>
